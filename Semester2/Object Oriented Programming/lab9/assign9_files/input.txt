@@ -1,0 +1,5 @@
+fileLocation E:\DOCUMENTE\FACULTA\SEM2\oop\lab\9\assign9_files\assign5_cplusplus\file1.txt
+mylistLocation E:\DOCUMENTE\FACULTA\SEM2\oop\lab\9\assign9_files\assign5_cplusplus\file2.csv
+
+add aaa, rrr, 01-01-2000, 7, nnn
+add bbb, ttt, 02-02-2000, 8, mmm
