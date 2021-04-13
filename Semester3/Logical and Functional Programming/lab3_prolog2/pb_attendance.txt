@@ -1,0 +1,5 @@
+%replace(L:list,R:result)
+%(i,o)
+replace([],[]).
+replace([H|T],R):- is_list(H), !, myLast(H,E), replace(T,R1), R=[E|R1].
+replace([H|T],R):- replace(T,R1), R=[H|R1].
