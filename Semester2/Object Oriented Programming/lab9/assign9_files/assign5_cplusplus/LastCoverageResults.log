@@ -1,0 +1,21 @@
+[2020-05-13 10:39:57] [info] Start Program:
+Path:"E:\\DOCUMENTE\\FACULTA\\SEM2\\oop\\lab\\8\\assign8_vector\\Debug\\assign8_vector.exe"
+Arguments:
+Working directory: "E:\\DOCUMENTE\\FACULTA\\SEM2\\oop\\lab\\8\\assign8_vector\\assign5_cplusplus\\"
+Modules: Selected: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\8\assign8_vector\Debug\assign8_vector.exe Excluded: 
+Sources: Selected: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\8\assign8_vector\assign5_cplusplus Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Ioana Serban\AppData\Local\Temp\ffglkg1r.az0 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2020-05-13 10:39:57] [info] Module: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\8\assign8_vector\Debug\assign8_vector.exe is selected because it matches selected pattern: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\8\assign8_vector\Debug\assign8_vector.exe
+[2020-05-13 10:39:58] [info] ----------------------------------------------------
+[2020-05-13 10:39:58] [info] Coverage binary generated in file: C:\Users\Ioana Serban\AppData\Local\Temp\ffglkg1r.az0
+[2020-05-13 10:39:58] [info] ----------------------------------------------------
