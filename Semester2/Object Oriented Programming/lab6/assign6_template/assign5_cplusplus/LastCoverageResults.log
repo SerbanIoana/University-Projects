@@ -1,0 +1,21 @@
+[2020-05-10 17:37:04] [info] Start Program:
+Path:"E:\\DOCUMENTE\\FACULTA\\SEM2\\oop\\lab\\6\\assign6_template\\Debug\\assign6.exe"
+Arguments:
+Working directory: "E:\\DOCUMENTE\\FACULTA\\SEM2\\oop\\lab\\6\\assign6_template\\assign5_cplusplus\\"
+Modules: Selected: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\6\assign6_template\Debug\assign6.exe Excluded: 
+Sources: Selected: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\6\assign6_template\assign5_cplusplus Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Ioana Serban\AppData\Local\Temp\ng01etjn.tex 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2020-05-10 17:37:04] [info] Module: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\6\assign6_template\Debug\assign6.exe is selected because it matches selected pattern: E:\DOCUMENTE\FACULTA\SEM2\oop\lab\6\assign6_template\Debug\assign6.exe
+[2020-05-10 17:37:05] [info] ----------------------------------------------------
+[2020-05-10 17:37:05] [info] Coverage binary generated in file: C:\Users\Ioana Serban\AppData\Local\Temp\ng01etjn.tex
+[2020-05-10 17:37:05] [info] ----------------------------------------------------
