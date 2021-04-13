@@ -1,0 +1,3 @@
+fileLocation E:\DOCUMENTE\FACULTA\SEM2\oop\lab\8\assign8_vector\assign5_cplusplus\file1.txt
+
+add F1423, restaurant exterior, 01-13-2019, 7, prev8.mp4
