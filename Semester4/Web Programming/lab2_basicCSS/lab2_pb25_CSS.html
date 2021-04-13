@@ -1,0 +1,36 @@
+<!-- 25. Write a web page which contains a ball (rounded shape, do not use an image for this)
+     on top of the page. When the mouse is over the ball, 
+     it should drop to the bottom of the page and keep jumping continuously.-->
+
+     <html>
+         <head>
+             <style type="text/css">
+                .ball{
+                    display: block;
+                    position: relative;
+                    top: 1%x;
+                    left: 45%;
+                    border-radius: 50%;
+                    height: 100px;
+                    width: 100px;
+                    margin: 0;
+                    background: radial-gradient(circle at 30% 15%, violet, black);
+                }
+
+                .ball:hover{
+                    animation: jump 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+                    animation-direction: alternate;
+                    animation-iteration-count: infinite;
+                }
+
+                @keyframes jump{
+                    0% { transform: translate(0, 0);}
+                    100% { transform: translate(0, 600px);}
+               }
+             </style>
+         </head>
+
+         <body>
+            <figure class="ball"></figure>
+         </body>
+     </html>

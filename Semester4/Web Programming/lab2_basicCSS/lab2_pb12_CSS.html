@@ -1,0 +1,78 @@
+<!-- 12. Write a web page with a squared box built using 4 lines (which are divs). 
+    Each line/div should be fully transparent at the edges (i.e. the corners of the box are transparent).-->
+
+    <html>
+        <head>
+            <style type="text/css">
+
+                .container{
+                    width: 600px;
+                    height: 600px;
+                    position: relative;
+                }
+
+                .top{
+                    width: 400px;
+                    height: 2px;
+                    
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+
+                    background:
+                        linear-gradient(to left,
+                        transparent, orange, transparent);
+                }
+
+                .left{
+                    width: 2px;
+                    height: 400px;
+                    
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+
+                    background:
+                        linear-gradient(to top,
+                        transparent, orange, transparent);
+                }
+
+                .bottom{
+                    width: 400px;
+                    height: 2px;
+                    
+                    position: absolute;
+                    top: 420px;
+                    left: 20px;
+
+                    background:
+                        linear-gradient(to right,
+                        transparent, orange, transparent);
+                }
+
+                .right{
+                    width: 2px;
+                    height: 400px;
+                    
+                    position: absolute;
+                    top: 20px;
+                    left: 420px;
+
+                    background:
+                        linear-gradient(to top,
+                        transparent, orange, transparent);
+                }
+
+            </style>
+        </head>
+
+        <body>
+            <div class="container">
+                <div class="top"></div>
+                <div class="left"></div>
+                <div class="bottom"></div>
+                <div class="right"></div>
+            </div>
+            
+        </body>
+    </html>

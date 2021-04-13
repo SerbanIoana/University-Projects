@@ -1,0 +1,110 @@
+<!-- Solve the following task using only the jQuery library (production version, jquery.min.js,
+ or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY,
+  PLUGIN OR EXTENSION BESIDES THE JQUERY LIBRARY. Write a web page for a small game.
+   The web page should display at random times images placed in random positions on the browser window.
+    Each image lasts on the browser window for a short period of time and then it dissapears.
+     If the user clicks an image before it dissapears, he/she gets a point.
+      The game ends when the user wins 10 points. -->
+
+
+<html>
+    <head>
+        <title>
+            Image Game
+        </title>
+
+        <style type="text/css">
+            .imgWrapper{
+                position: relative;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .pointsWrapper{
+                text-align: center;
+                display: block;
+                margin-bottom: 10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .image {
+                visibility: hidden;
+                height: 150px;
+                width: 200px;
+            }
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script >
+            $(document).ready(function() {
+
+                $(".image").click(function() {
+                    var new_score = parseInt($("#score").text())
+                    new_score += 1
+                    $("#score").text(new_score)
+                    $(this).hide()
+                })
+
+                startGame()
+            })
+
+            function handleImage() {
+                console.log("Select img...");
+
+                var images = document.getElementsByClassName("image")
+                var pickedID = Math.floor(Math.random() * images.length)
+                var pickedImg = images[pickedID].getAttribute("id")
+                pickedImg = "#" + pickedImg
+
+                console.log("Selected img..." + pickedImg);
+
+                console.log("Select position...");
+
+                var x = Math.floor(Math.random() * 1200)
+                var y = Math.floor(Math.random() * 500)
+
+                console.log("Selected position..." + x + " " + y);
+
+
+                $(pickedImg).css({"visibility": "visible", "position": "absolute", "top": y+"px", "left": x+"px"})
+                $(pickedImg).show()
+
+                timeTilHide = setTimeout(function(){$(pickedImg).hide()}, 1500)
+            }
+
+            function startGame() {
+                console.log("Game start...");
+                var timeBetweenImages = Math.floor((Math.random() * 2500) + 2000)
+                var showImagesInterval = setInterval(handleImage, timeBetweenImages)
+
+                var stopGameInterval = setInterval(stopGame, 100)
+
+                function stopGame() {
+                    score = parseInt($("#score").text())
+                    if (score == 10){
+                        alert("Game won!")
+                        clearInterval(showImagesInterval)
+                        clearInterval(stopGameInterval)
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="pointsWrapper"> 
+            <p>Click the images to earn points!</p>
+            <label>Points earned: </label>
+            <label id="score">0</label>
+        </div>
+        
+        <div class="imgWrapper">
+            <img class="image" id="img1" src="pictures/untold.jpeg">
+            <img class="image" id="img2" src="pictures/Neversea-1.jpg">
+            <img class="image" id="img3" src="pictures/Coachella-800x450.jpg">
+            <img class="image" id="img4" src="pictures/burningMan.jpg">
+        </div>
+        
+    </body>
+</html>
