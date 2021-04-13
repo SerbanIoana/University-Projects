@@ -1,0 +1,487 @@
+
+html {
+    background: #fff;
+    font-family: sans-serif;
+    display: block;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font: 13px/1.3 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100%;
+    min-width: 1024px;
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+div{
+    font: 13px/1.3 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.Header {
+    top: 0;
+    width: 100%;
+}
+
+.headerWrapper{
+    position: relative;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 109px;
+    margin-right: 109px;
+}
+
+
+/* menu/search */
+.headerMenu{
+    display: flex;
+    /* position: fixed; */
+
+    flex-direction: row;
+    padding-top: 22px;
+    padding-bottom: 12px;
+    background: white;
+    z-index: 10;
+    width: 100%;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 90px;
+} */
+
+.headerLogo{
+    position: relative;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.logoImg{
+    height: 58px;
+    width: 205px;
+}
+
+.headerSearch{
+    position: relative;
+    max-width: 647px;
+    margin-left: 30px;
+    margin-right: 160px;
+    height: 46px;
+    display: flex;
+}
+
+
+#search-input{
+    width: 555px;
+    height: 46px;
+    margin: 0;
+    font-size: 18px;
+    border-width: 1px;
+    border-color: #b0b0b0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-right: none;
+}
+
+#search-input:focus{
+    border-color: #0f69ff;
+    outline: 0;
+}
+
+#search-button{
+    width: 90px;
+    height: 100%;
+    margin: 0;
+    background-color: #0f69ff;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border: 0;
+}
+
+#search-button img{
+    height: 35px;  
+    width: 35px;
+}
+
+.headerAuthentication{
+    position: relative;
+    width: 79px;
+    max-height: 19px;
+    margin-top: 10px;
+    margin-right: 35px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #6001d2;
+    border-style: solid;
+    font: 13px/1.3 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: #6001d2;
+    text-align: center;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+
+.headerAuthentication:hover{
+    color: white;
+    background-color: #6001d2;
+}
+
+.headerMail{
+    position: relative;
+    max-width: 200px;
+    height: 19px;
+    display: flex;
+    padding-left: 15px;
+    padding: 2px 0;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.mailIcon{
+    position: relative;
+    margin: 0;
+    height: 19px;  
+    max-width: 35px;
+    padding-right: 8px;
+}
+
+.mailImg{
+    height: 20px;  
+    width: 27px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+.mailText{
+    width: 30px;
+    max-height: 19px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6001d2;
+    text-align: center;
+    margin: 0;
+    padding: 2px 0;
+}
+
+
+
+/* navBar */
+.headerNavBar{
+    padding-left: 22px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 93px;
+    background-color: white;
+}
+
+.navBarMail{
+    position: relative;
+    max-width: 200px;
+    height: 19px;
+    display: flex;
+    padding-left: 15px;
+    margin-right: 20px;
+    padding: 2px 0;
+}
+
+.navBarText{
+    position: relative;
+    max-height: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6001d2;
+    text-align: center;
+    padding: 4px 0;
+}
+
+a.mailText{
+    text-decoration: none;
+}
+
+a.mailText:hover{
+    text-decoration: underline;
+}
+
+a.navBarText{
+    text-decoration: none;
+}
+
+a.navBarText:hover{
+    text-decoration: underline;
+}
+
+
+/* main */
+.Main{
+    top: 0;
+    width: 100%;
+}
+
+.mainWrapper{
+    position: relative;
+    margin-left: 109px;
+    margin-right: 109px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* mainMain */
+.mainMain{
+    width: 75%;
+    height: 100%;
+    padding-top: 10px;
+
+}
+
+.mainNewsList{
+    width: 880px;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.newsItem{
+    position: relative;
+    width: 880px;
+    height: 147px;
+}
+
+.itemContent{
+    width: 880px;
+    height: 123px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.contentTitle:hover{
+    color: #188fff;
+}
+
+.contentThumbnail{
+    position: relative;
+    margin: 0;
+    height: 123px;  
+    max-width: 230px;
+    margin-right: 25px;
+}
+
+.thumbnailImg{
+    height: 123px;  
+    width: 220px;
+    border-radius: 10px;
+}
+
+.contentPreview{
+    position: relative;
+}
+
+.contentCategory{
+    display: inline-block;
+    color: #188fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.contentSite{
+    display: inline-block;
+    color: #6e7780;
+    font-size: 12px;
+}
+
+.contentTitle{
+    display: block;
+    color: #020e65;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: 590px;
+    max-height: 48px;
+    overflow: hidden;
+}
+
+.contentSummary{
+    display: block;
+    color: black;
+    font-size: 14px;
+    max-width: 590px;
+    max-height: 36px;
+    overflow: hidden;
+}
+
+.contentDots{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin: 0;
+    height: 23px;  
+    max-width: 25px;
+    padding-right: 8px;
+}
+
+.dotsImg{
+    height: 17px;  
+    width: 17px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+
+
+/* aside */
+.mainAside{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.asideWeather{
+    height: 115px;  
+    width: 300px;
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.weatherLocation{
+    display: flex;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.locationName{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.locationIcon{
+    position: relative;
+    margin: 0;
+    height: 23px;  
+    max-width: 25px;
+    padding-left: 3px;
+}
+
+.locationImg{
+    height: 19px;  
+    width: 19px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+
+.weatherForecast{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forecastDay{
+    position: relative;
+}
+
+.dayName{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dayIcon{
+    display: block;
+    position: relative;
+    margin: 0;
+    height: 30px;  
+    max-width: 30px;
+    margin-bottom: 10px;
+}
+
+.dayImg{
+    height: 24px;  
+    width: 26px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+.dayMaxTemp{
+    display: inline;
+    padding-right: 3px;
+    font-size: 12px;
+}
+
+.dayMinTemp{
+    display: inline;
+    color: #6e7780;
+    font-size: 12px;
+}
+
+
+
+.asideAd{
+    position: relative;
+    display: block;
+    margin: 0;
+    height: 600px;  
+    max-width: 300px;
+    padding-right: 8px;
+}
+
+.asideImg{
+    height: 600px;  
+    width: 300px;
+    margin: 0;
+}
+
+
+.asideFooter{
+    display: block;
+    max-width: 300px;
+    text-align: center;
+}
+
+.footerList{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+.footerItem{
+    display: inline-block;
+    font-size: 13px;
+    color:#6e7780;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.footerItem:hover{
+    color: #0f69ff;
+    text-decoration: underline;
+}
