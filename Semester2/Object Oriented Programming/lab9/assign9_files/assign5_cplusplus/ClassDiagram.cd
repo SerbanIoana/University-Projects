@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Exception" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAAAAACA=</HashCode>
+      <FileName>exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileRepository" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAAAAAACAABACgCQAAAABgAAAAAAAEAAIAABAA=</HashCode>
+      <FileName>fileRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgentRepository" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAIAAAAAACAgAAAAASAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>repository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSVAgentRepo" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>repository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HTMLAgentRepo">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>repository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Repository" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAIAAAAAAAAAAAAAQAAAABgAAAACAAAAAAAIBAA=</HashCode>
+      <FileName>repository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAACCAQAAGAAQAAABgAQIkAAAQAAAAABAQ=</HashCode>
+      <FileName>service.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Date" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAEAAAAQAAAAAAAAAAQAgAABAAAAAAAgAQA=</HashCode>
+      <FileName>tape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tape" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAAQAACEAAAgRAAAAAAAAAAAACAATGIAiAAAAA=</HashCode>
+      <FileName>tape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAQACABAAAhgAAgAAAEAAAACAoFAAAAAAAEA=</HashCode>
+      <FileName>ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TapeValidator">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>validator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
