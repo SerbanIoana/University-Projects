@@ -1,0 +1,6 @@
+D4444,cinema exterior,01-03-2019,8,prev4.mp4
+A1111,restaurant interior,13-11-2019,5,prev1.mp4
+B2222,town-hall interior,09-10-2019,22,prev2.mp4
+E5555,supermarket interior,05-05-3029,11,prev5.mp4
+C3333,park,22-08-2019,7,prev3.mp4
+F6666,restaurant interior,09-11-2019,55,prev6.mp4
