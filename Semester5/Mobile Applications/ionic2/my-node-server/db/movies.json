@@ -1,0 +1,15 @@
+{"_id":"1","title":"movie1","budget":324117,"premiere":"1999-04-01","isOnTV":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"2","title":"movie2","budget":563524,"premiere":"2000-05-02","isOnTV":"true","userId":"vI1GMkzBza5i82zj"}
+{"_id":"3","title":"movie3","budget":237346,"premiere":"2001-06-03","isOnTV":"true","userId":"vI1GMkzBza5i82zz"}
+{"_id":"4","title":"movie4","budget":998787,"premiere":"2002-07-04","isOnTV":"false","userId":"vI1GMkzBza5i82zz"}
+{"_id":"5","title":"movie5","budget":123332,"premiere":"2003-08-05","isOnTV":"true","userId":"vI1GMkzBza5i82zz"}
+{"_id":"6","title":"movie6","budget":777876,"premiere":"2004-09-06","isOnTV":true,"userId":"vI1GMkzBza5i82zj"}
+{"title":"cccc","budget":22222,"premiere":"2021-12-13T10:59:43.269Z","isOnTV":true,"userId":"vI1GMkzBza5i82zz","_id":"7NSShmIa5WYCCbDT"}
+{"title":"new1","budget":4564,"premiere":"2022-01-10T02:16:49.683Z","isOnTV":true,"userId":"vI1GMkzBza5i82zz","_id":"91o8thOPNApWNMjG"}
+{"title":"new2","budget":7777,"premiere":"2022-01-10T02:17:07.453Z","isOnTV":true,"userId":"vI1GMkzBza5i82zz","_id":"RX6HSLN02N6pavlq"}
+{"_id":"1","title":"movie1","budget":324117,"premiere":"1999-04-01","isOnTV":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"2","title":"movie2","budget":563524,"premiere":"2000-05-02","isOnTV":"true","userId":"vI1GMkzBza5i82zj"}
+{"_id":"6","title":"movie6","budget":777876,"premiere":"2004-09-06","isOnTV":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"1","title":"movie1offline","budget":324117,"premiere":"1999-04-01","isOnTV":true,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"2","title":"movie2","budget":563524,"premiere":"2000-05-02","isOnTV":"true","userId":"vI1GMkzBza5i82zj"}
+{"_id":"6","title":"movie6","budget":777876,"premiere":"2004-09-06","isOnTV":true,"userId":"vI1GMkzBza5i82zj"}
